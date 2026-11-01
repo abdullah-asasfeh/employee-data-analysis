@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Step 1: Load and clean the data
-file_path = r"C:\Users\Lenovo\OneDrive\Desktop\Estarta\Employee Sample Data - Ax.txt"
+file_path = "Employee Sample Data.txt"  # tab-separated input file in the same folder
 
 try:
     df = pd.read_csv(file_path, delimiter="\t", encoding='latin1')
